@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FOODI - Delectable food restaurant. Order online with fast delivery.">
+    <title>FOODI - Delectable Food Restaurant</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="main-header">
+        <div class="container navbar-flex">
+            <a href="#" class="brand-logo">
+                <span class="logo-accent">F</span>OODI
+            </a>
+
+            <nav class="nav-container">
+                <ul class="nav-list flex-row">
+                    <li><a href="#" class="nav-link active">Home</a></li>
+                    <li><a href="#menu" class="nav-link">Menu</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#" class="nav-link">Offers</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions flex-row">
+                <button class="icon-btn" aria-label="Search">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /></svg>
+                </button>
+                
+                <button class="icon-btn cart-btn" aria-label="Cart">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" /><line x1="3" y1="6" x2="21" y2="6" /><path d="M16 10a4 4 0 0 1-8 0" />
+                    </svg>
+                    <span class="cart-badge">8</span>
+                </button>
+
+                <a href="tel:+64958248966" class="contact-btn flex-row">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="white"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.57 3.57.57a1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.45.57 3.57a1 1 0 01-.25 1.02l-2.2 2.2z" /></svg>
+                    Contact
+                </a>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+
+        <section class="hero-section" id="home">
+            <div class="container flex-row">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        Dive into Delights Of Delectable <span class="text-highlight">Food</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Where Each Plate Weaves a Story of Culinary Mastery and Passionate Craftsmanship
+                    </p>
+                    <div class="hero-cta flex-row">
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                        <a href="#" class="btn btn-video flex-row">
+                            <span class="play-icon-wrap">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="black"><polygon points="5 3 19 12 5 21 5 3" /></svg>
+                            </span>
+                            Watch Video
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="image-bg-circle"></div>
+                    <img src="images/intersect_009ace.png" alt="Main Dish" class="hero-main-img">
+
+                    <div class="floating-card card-top flex-row">
+                        <img src="images/nicepng_plate_of_food_png_546030_1_ccbeb0.png" alt="Noodles">
+                        <div class="card-info">
+                            <p class="card-name">Spicy noodles</p>
+                            <div class="stars">★★★</div>
+                            <p class="card-price">$18.00</p>
+                        </div>
+                    </div>
+
+                    <div class="floating-card card-bottom flex-row">
+                        <img src="images/pngwing_1_483301.png" alt="Salad">
+                        <div class="card-info">
+                            <p class="card-name">Vegetarian salad</p>
+                            <div class="stars">★★★★</div>
+                            <p class="card-price">$23.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="categories-section">
+            <div class="container">
+                <h2 class="section-title text-center">Popular Catagories</h2>
+                <div class="category-grid flex-row">
+                    <div class="category-card active">
+                        <div class="img-circle"><img src="images/pngwing_4_a76a2f.png" alt="Main Dish"></div>
+                        <h3>Main Dish</h3>
+                        <p>(86 dishes)</p>
+                    </div>
+                    <div class="category-card">
+                        <div class="img-circle"><img src="images/pngwing_6_714870.png" alt="Breakfast"></div>
+                        <h3>Break Fast</h3>
+                        <p>(12 dishes)</p>
+                    </div>
+                    <div class="category-card">
+                        <div class="img-circle"><img src="images/pngwing_3_4eb761.png" alt="Dessert"></div>
+                        <h3>Dessert</h3>
+                        <p>(48 dishes)</p>
+                    </div>
+                    <div class="category-card">
+                        <div class="img-circle"><img src="images/pngwing_7_225a83.png" alt="Browse All"></div>
+                        <h3>Browse All</h3>
+                        <p>(255 Items)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="menu-section" id="menu">
+            <div class="container">
+                <p class="label text-center">Special Dishes</p>
+                <h2 class="section-title text-center">Standout Dishes <br>From Our Menu</h2>
+                
+                <div class="dish-grid flex-row">
+                    <div class="dish-card">
+                        <div class="heart-icon">❤</div>
+                        <img src="images/fattoush_salad_c5a3ef.png" alt="Fattoush salad">
+                        <h3>Fattoush salad</h3>
+                        <p>Description of the item</p>
+                        <div class="dish-footer flex-row">
+                            <span class="price">$24.00</span>
+                            <span class="rating">★ 4.9</span>
+                        </div>
+                    </div>
+                    <div class="dish-card">
+                        <div class="heart-icon">❤</div>
+                        <img src="images/vegetable_salad_200e6d.png" alt="Vegetable salad">
+                        <h3>Vegetable salad</h3>
+                        <p>Description of the item</p>
+                        <div class="dish-footer flex-row">
+                            <span class="price">$26.00</span>
+                            <span class="rating">★ 4.6</span>
+                        </div>
+                    </div>
+                    <div class="dish-card">
+                        <div class="heart-icon">❤</div>
+                        <img src="images/egg_salad_34a790.png" alt="Egg vegi salad">
+                        <h3>Egg vegi salad</h3>
+                        <p>Description of the item</p>
+                        <div class="dish-footer flex-row">
+                            <span class="price">$23.00</span>
+                            <span class="rating">★ 4.5</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials-section">
+            <div class="container flex-row">
+                <div class="testimonial-visual">
+                    <div class="chef-wrapper">
+                        <img src="images/pngwing_2_a41031.png" alt="Best Chef">
+                        <div class="chef-badge">Our Best Chef 👨‍🍳</div>
+                    </div>
+                </div>
+                <div class="testimonial-content">
+                    <p class="label">TESTIMONIALS</p>
+                    <h2 class="section-title">What Our Customers <br>Say About Us</h2>
+                    <blockquote class="quote">
+                        "I had the pleasure of dining at Foodi last night, and I'm still raving about the experience! The attention to detail in presentation and service was impeccable"
+                    </blockquote>
+                    <div class="feedback-row flex-row">
+                        <div class="avatar-group flex-row">
+                            <img src="images/image_10_0f496a.png" alt="User 1" class="avatar">
+                            <img src="images/image_11_fb6471.png" alt="User 2" class="avatar">
+                            <img src="images/portrait_lovely_blond_female_part_time_employee_talking_manager_customer_support_removebg_preview_1_a67126.png" alt="User 3" class="avatar">
+                        </div>
+                        <div class="rating-text">
+                            <p>Customer Feedback</p>
+                            <span>★ 4.9</span> <small>(18.6k Reviews)</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="services-section" id="services">
+            <div class="container flex-row">
+                <div class="services-intro">
+                    <p class="label">OUR STORY & SERVICES</p>
+                    <h2 class="section-title">Our Culinary Journey<br>And Services</h2>
+                    <p class="desc">Rooted in passion, we curate unforgettable dining experiences blending culinary artistry with warm hospitality.</p>
+                    <a href="#" class="btn btn-primary">Explore</a>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card text-center">
+                        <div class="icon">😊</div>
+                        <h3>CATERING</h3>
+                        <p>Delight your guests with our flavors</p>
+                    </div>
+                    <div class="service-card text-center">
+                        <div class="icon">⏱</div>
+                        <h3>FAST DELIVERY</h3>
+                        <p>Prompt delivery to your door</p>
+                    </div>
+                    <div class="service-card text-center">
+                        <div class="icon">🛒</div>
+                        <h3>ONLINE ORDERING</h3>
+                        <p>Order with ease using our App</p>
+                    </div>
+                    <div class="service-card text-center">
+                        <div class="icon">🎁</div>
+                        <h3>GIFT CARDS</h3>
+                        <p>Give the gift of exceptional dining</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#" class="brand-logo">
+                    <span class="logo-accent">F</span>OODI
+                </a>
+                <p>Savor the artistry where every dish is a culinary masterpiece</p>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Useful links</h4>
+                <ul>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h4>Main Menu</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Offers</a></li>
+                    <li><a href="#">Menus</a></li>
+                    <li><a href="#">Reservation</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h4>Contact Us</h4>
+                <ul>
+                    <li><a href="mailto:example@email.com">example@email.com</a></li>
+                    <li><a href="tel:+64958248966">+64 958 248 966</a></li>
+                    <li><a href="#">Social media</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2024 FOODI. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
